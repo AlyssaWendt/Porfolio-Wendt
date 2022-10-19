@@ -1,7 +1,8 @@
 import React from 'react'
 
-export default function About() {
+export default function Projects() {
   return (
-    <div>About</div>
+    <div>Projects</div>
   )
 }
+
