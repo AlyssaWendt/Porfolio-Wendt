@@ -1,6 +1,5 @@
 import React from "react";
-import Contacts from "./Contacts";
-import Projects from "./Projects";
+
 
 export default function About() {
   return (
@@ -31,13 +30,13 @@ export default function About() {
           </p>
           <div className="contact">
             <a
-              href={Contacts}
+              href="#contacts"
               className="link-contact">
               Work With Me
             </a>
             <br/>
             <a
-              href={Projects}
+              href="#projects"
               className="link-projects">
               See My Past Work
             </a>

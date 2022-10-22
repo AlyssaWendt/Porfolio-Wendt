@@ -11,15 +11,15 @@ export const projects = [
       title: "Quick Tarot",
       subtitle: "React Frontend",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+        "Work collaboratively with a small team to build Reddit clone Full-stack application that allows users to post, comment and create communities regarding traveling",
       image: "./project-3.gif",
       link: "https://quicktarot.herokuapp.com/",
     },
     {
-      title: "Travel",
+      title: "TravelHub",
       subtitle: "Express, Mongodb, CSS, Bootstrap, Node Js ",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+        "Work collaboratively with a small team to build Reddit clone Full-stack application that allows users to post, comment and create communities regarding traveling",
       image: "https://i.imgur.com/5abYlR5.png",
       link: "https://travelhub3.herokuapp.com/login",
     },
