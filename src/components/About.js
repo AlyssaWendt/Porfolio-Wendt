@@ -12,21 +12,17 @@ export default function About() {
             apps!
           </h1>
           <p className="brand">
-            I am an eager software engineer! I enjoy the frontend 
-            aspect of design which focuses on visuals and client 
-            needs. I also have a passion for backend development, 
-            particularly in exercising problem solving and 
-            analytical skills with Node.js and Express technologies
-            to develop web based applications.Previously, I worked
-            in IT customer support service and I am currently a 
-            soldier in the US Army Reserve. Through these 
-            experiences, I've grown to love the process of 
-            learning in a fast paced environment, leading with
-            curiosity and working with a team to create
-            practical and meaningful solutions in the tech 
-            space. Moving forward, I am excited to take these 
-            experiences and create exciting opportunities for 
-            professional and personal success.
+        I am an eager software engineer! I enjoy the frontend aspect of design which 
+        focuses on visuals and client needs. I also have a passion for backend development,
+        particularly in exercising problem solving and analytical skills with Node.js and 
+        Express technologies.Previously, I worked in IT customer support and I am 
+        currently a soldier in the US Army Reserve as an IT professional. Through
+        these experiences, I've grown to love the process of learning in a fast paced 
+        environment, leading with curiosity and working with a team to create practical 
+        and meaningful solutions in the tech space. Moving forward, I am excited to take
+        these experiences and create exciting opportunities for professional and personal
+        success.
+
           </p>
           <div className="contact">
             <a

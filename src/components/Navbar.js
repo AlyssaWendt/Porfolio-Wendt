@@ -5,8 +5,9 @@ import React from "react";
 export default function Navbar() {
   return (
     <header className="header">
-      <div className="container-nav"> // eslint-disable-next-line
-        <a className="link4about">
+      <div className="container-nav"> 
+      {/* eslint-disable-next-line react/jsx-no-target-blank */}
+        <a className="link4about" href="!#">
           <a href="#about" className="nav-about">
             Alyssa Wendt
           </a>
