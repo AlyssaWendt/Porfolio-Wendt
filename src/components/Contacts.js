@@ -39,7 +39,8 @@ export default function Contact() {
             style={{ filter: "opacity(0.7)" }}
             src="https://www.google.com/maps/embed/v1/place?q=715+n+st+rembrandt+royal+oak&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
           />
-          <div className="container-info">
+        </div>
+          <div className="container-contact-info">
             <div className="address-container">
               <h2 className="address-header">
                 ADDRESS
@@ -57,24 +58,28 @@ export default function Contact() {
               
                 alyssa95wendt@gmail.com
               </a>
+              </div>
+              <div>
               <h2 className="phone-header">
                 PHONE
               </h2>
               <p className="phone-info">123-456-7890</p>
             </div>
           </div>
-        </div>
+       
+        <div className="form">
+           <h2 className="hire-me-header">
+            Hire Me
+          </h2>
+          <p className="open-to-work-p">
+            Contact me here!
+          </p> 
         <form
           netlify
           name="contact"
           onSubmit={handleSubmit}
           className="contact-form">
-          <h2 className="hire-me-header">
-            Hire Me
-          </h2>
-          <p className="open-to-work-p">
-            Contact me here!
-          </p>
+          
           <div className="container-name-form">
             <label htmlFor="name" className="name">
               Name
@@ -106,6 +111,7 @@ export default function Contact() {
               Message
             </label>
             <textarea
+              maxlength="300"
               id="message"
               name="message"
               className="input-message"
@@ -118,6 +124,7 @@ export default function Contact() {
             Submit
           </button>
         </form>
+        </div>
       </div>
     </section>
   );

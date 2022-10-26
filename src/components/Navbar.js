@@ -7,24 +7,29 @@ export default function Navbar() {
     <header className="header">
       <div className="container-nav"> 
       {/* eslint-disable-next-line react/jsx-no-target-blank */}
-        <a className="link4about" href="!#">
-          <a href="#about" className="nav-about">
-            Alyssa Wendt
-          </a>
-        </a>
+        <a href="!#"> Alyssa Wendt Software Engineer</a>
         <nav className="nav">
-          <a href="#projects" className="nav-projects">
-            Past Work
+        <a href="!#">
+            <a href="#about" >
+            About Me
+            </a>
+        </a>
+
+          <a href="#projects" >
+            Projects
           </a>
-          <a href="#skills" className="nav-skills">
+          <a href="#skills" >
             Skills
           </a>
-        </nav>
         <a
-          href="#contacts"
-          className="nav-contact">
-          <ArrowRightIcon className="arrrow-right-icon" />
+            href="#contact"
+            className="nav-contact">
+                Hire Me
+            <ArrowRightIcon className="arrow"/>
+            
         </a>
+        </nav>
+        
       </div>
     </header>
   );

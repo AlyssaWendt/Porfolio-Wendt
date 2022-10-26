@@ -11,8 +11,8 @@ export const projects = [
       title: "Quick Tarot",
       subtitle: "React Frontend",
       description:
-        "Work collaboratively with a small team to build Reddit clone Full-stack application that allows users to post, comment and create communities regarding traveling",
-      image: "./project-3.gif",
+        "A Tarot card Frontend application that allows users to learn the standard Tarot deck, as well as how to start in Tarot.",
+      image: "https://i.imgur.com/Xq1Kwcp.png",
       link: "https://quicktarot.herokuapp.com/",
     },
     {

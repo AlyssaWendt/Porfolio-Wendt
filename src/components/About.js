@@ -3,14 +3,21 @@ import React from "react";
 
 export default function About() {
   return (
-    <section id="about">
+    <section id="about" className="about">
       <div className="main-container">
-        <div className="about">
+        <div className="container-about">
           <h1 className="title">
             Hi, I'm Alyssa.
             <br className="break" />I love to build amazing
             apps!
           </h1>
+          <div className="me">
+          <img
+            className="profile-pic"
+            alt="hero"
+            src="https://i.imgur.com/f9B6dvb.jpg?1"
+          />
+        </div>
           <p className="brand">
         I am an eager software engineer! I enjoy the frontend aspect of design which 
         focuses on visuals and client needs. I also have a passion for backend development,
@@ -24,9 +31,9 @@ export default function About() {
         success.
 
           </p>
-          <div className="contact">
+          <div className="linking">
             <a
-              href="#contacts"
+              href="#contact"
               className="link-contact">
               Work With Me
             </a>
@@ -38,13 +45,7 @@ export default function About() {
             </a>
           </div>
         </div>
-        <div className="me">
-          <img
-            className="profile-pic"
-            alt="hero"
-            src="https://i.imgur.com/f9B6dvb.jpg?1"
-          />
-        </div>
+       
       </div>
     </section>
   );
